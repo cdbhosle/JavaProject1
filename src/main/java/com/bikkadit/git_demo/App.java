@@ -1,24 +1,16 @@
 package com.bikkadit.git_demo;
 
-/**
- * Hello world!
- *
- */
-public class App 
-
+public class App
 
 {
-	public void addData(String data)
-	{
-		System.out.println("data:"+data);
-		if(data.equals("cd"))
-				{
+	public void addData(String data) {
+
+		if (data.equals(Constatnt.DATA_TYPE)) {
 			System.out.println("welcome");
-			
-				}
+		}
 	}
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
 }
